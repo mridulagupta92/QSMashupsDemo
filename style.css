@@ -1,0 +1,378 @@
+/* CSS */
+  
+/**
+* set padding to make room for bootstrap menu
+*
+*/
+.container{
+
+}
+
+ul.LinkedList { display: block; }
+/* ul.LinkedList ul { display: none; } */
+  .HandCursorStyle { cursor: pointer; cursor: hand; }  /* For IE */
+
+div.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+div.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 171px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+Try it Yourself »
+
+
+input[type=text] {
+    width: 130px;
+    box-sizing: content-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image:url('searchicon.png');
+	background-size:40px 40px;
+    background-position: 2px 3px;
+	border-radius: 15px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 75%;
+}
+body, html{
+                padding:0;
+				margin:0;
+			}
+
+
+p.GradientLine {
+ 				  background-color:#919698;
+                  height:15px; 
+                  background: linear-gradient(to bottom, #EFEFEF, white);
+                  
+}
+.ab{
+	
+    font-size:13px;
+	color:#428bca;
+}
+
+.nav-primary__link {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 100%;
+}
+
+/*  -----------Style for navigation bar--------------- */
+
+/* Add a black background color to the top navigation */
+.SalesTogglea {
+	
+                height:160px;
+				display: inline-block;
+	            /*border-style: Solid;*/
+				width: 33%;
+				cursor: pointer;
+				
+				
+}
+.SalesToggle {
+	
+                height:270px;				 
+				display: inline-block;
+	            
+				
+				
+				
+}
+
+@media (max-width: 650px) {
+
+#mytopnav a:hover {
+    background-color: white;
+	
+	 
+	color: #30373D;
+}
+
+
+}
+
+
+
+
+
+
+/*  -----------Style for navigation bar--------------- */
+
+/* Add a black background color to the top navigation */
+.topnav {
+	
+                font-family: sans-serif;
+                height:30px;
+				
+                
+                vertical-align: top;
+                vertical-align: middle;
+                background-color: white;
+    			
+				vertical-align:center; 
+    			text-justify:center;
+				
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	
+    
+    display: block;
+	
+    color: #919698;
+    text-align: center;
+	margin-left:0cm;
+	
+    padding: 0px 16px;
+    font-size: 17px;
+	vertical-align:left; 
+    text-justify:center;
+	font-weight: bold;
+                  
+   
+}
+
+
+	
+.topnav a.active{
+		color:Black;
+		background-color:#4CAF50; 
+		border-bottom: 2px solid Blue;
+		text-decoration: none; 
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: white;
+	border-bottom: 3px solid #389DD3;
+	text-decoration: none; 
+	color: #30373D;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
+/* End Top Nav Bar */
+
+                                /*
+                                * Overrides Bootstrap navbar z-index to avoid conflict with selections bar
+                                */
+.navbar-fixed-top {
+				  position: relative;
+                  z-index: 100;
+                  }
+                                
+.flex-container1 {
+                flex: 1 1 auto;
+                display: flex;
+                flex-wrap: wrap;
+                }
+                
+.flex-container {
+                flex: 1 1 auto;
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 15px 25px 15px;
+                border-style: Solid;
+                border-width: 1px;
+                border-color: #d7d7d7;
+                display: inline-block;
+                }
+                
+                /*Adding the blue header tiles class here*/
+                .qvtileheader {
+                                background-color: #deebf7;
+                                font-family: sans-serif;
+                                height: 40px;
+                                min-width: 330px;           
+                                
+                }
+                
+                /*Adding the filter panel class here*/
+                .qvFilterPanel {
+                                flex: 1 1 auto;
+                                display: flex;
+                                background-color: white;
+                                font-family: sans-serif;
+                                height: 34px;
+                                
+                }
+                .qvFilterPanel1 {
+                                display: flex;
+                                background-color: white;
+                                font-family: sans-serif;
+                                display: inline-block;
+                                flex-wrap: wrap;
+                
+                }
+                
+                                /*
+                                * need to set the height for objects
+                                * set top padding to make room for selection toolbar
+                                */
+                                /*Adding the blue header tiles class here*/
+
+                div.qvobject, div.qvplaceholder {
+                                                flex: 1 1 auto;
+                                                height: 300px;
+                                                min-width: 330px;
+                                                margin: 0 0px 0px 5px;   
+                                }
+                
+                                .qcmd {
+                                                cursor: pointer;
+                                }
+
+                                #popup {
+                                                background-color: #7f8c8d;
+                                                color: #FFFFFF;
+                                                position: fixed;
+                                                padding: 10px;
+                                                margin: 10px;
+                                                bottom: 0;
+                                                right: 0;
+                                                display: none;
+                                                border-radius: 5px;
+                                }
+
+                
+                /*Adding the grey main header tiles class here*/
+                .divcolor{
+                background-color:#FFFFFF;
+                font-family:arial;
+                height:45px;
+                text-justify:center
+                vertical-align: top;
+                vertical-align: middle;
+                                }
+                                
+                                                
+                /*
+                * Formatting of the lines and text
+                */
+                
+                  p.line {
+                  background-color:#0059FF;
+                  height:6px; 
+                  background: linear-gradient(to right, #389DD3 , #005992);
+                  vertical-align: top;
+                  }
+                  
+                  p.solid {
+                  border-style: solid;
+                  background-color:#D3D3D3; 
+                  color:#FFFFFF;
+                  }
+                  
+                  p.blackline {
+                  background-color:#D3D3D3;
+                  height:1px; 
+                  vertical-align: top;
+                  }
+
+                  p.rightalign { 
+                  height="40";
+                  color:black;
+                  text-align:right;
+                  font-size:12px;
+                  font-family: arial;
+                  vertical-align:center; 
+                  text-justify:center}
+
+                  p.leftalign{ 
+                  color:#a2a9ad;
+                  font-weight: bold;
+                  font-size:25px;
+                  font-family: arial;
+                  vertical-align:center; 
+                  text-justify:center;
+                  margin-left:10px;}
+/***********Footer Class************/
+
+.bg-4 { 
+    flex: 1 1 auto;
+                background-color: #FFFFFF;
+    color: #000000;
+                font-size: 30 px;
+                vertical-align:center; 
+                text-justify:center;
+                text-align:left;
+                    
+}
+.footer { 
+    flex: 1 1 auto;
+                color:#389DD3;
+                margin: 10px;
+                font-size:15px;
+                font-family: arial;
+                vertical-align:center; 
+                text-justify:center;
+                margin-right: 10px;
+				
+                  
+                    
+}
+
+               
+                
